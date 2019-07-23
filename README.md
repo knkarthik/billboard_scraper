@@ -7,6 +7,8 @@ Python web-scraper for *[Billboard's Hot 100 Chart](https://www.billboard.com/ch
 3. From the root of the repo run:
 
     `scrapy crawl -a date=2019-01-01 billboard_scraper -o result.csv`
+    
+if date is not specified it will take the current week.
 
 #### csv Headers:
 * Song name
